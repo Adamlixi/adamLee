@@ -1,15 +1,17 @@
-title: Moonwalk
-author: Abhinav Saxena
+title: Adam Lee
+author: Adam Lee
 url: https://www.abhinavsaxena.com/moonwalk # root address of the site
 description: > # description of the site (multiple lines allowed)
-  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
+  A Developer in Web2 and Web3. Love design individual games. <br>
+  Focus on building products that are useful and enjoyable. <br>
+  Researching DEFI and fully onchain games.
 
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
-    username: abhinav # update or delete this
+    username: adam # update or delete this
     card: summary_large_image
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
@@ -33,7 +35,7 @@ theme_config:
   show_tags: true # show tags in a blog posts
   # options for "home" page
   home:
-    title_projects: Portfolio
+    title_projects: Projects
     title_misc_list: Details
     title_blog: Blog
     title_old_projects: Old Projects

@@ -5,66 +5,42 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
-
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
-
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
-
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
-
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
-
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
-
-old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+  - title: AO Craft
+    url: https://ao-craft.vercel.app/
+    desc: AO Craft is a fully on-chain Minecraft game on AO.
     highlight: NEW
 
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
+  - title: 2048 Mining
+    url: https://2048coin.vercel.app/
+    desc: Play 2048 to simulate BTC mining.
+    highlight: NEW
 
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
+  - title: MOON DEX
+    url: https://adamlixi.github.io/moondex/
+    desc: First order book exchange on AO.
 
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+old_project_entries:
+  - title: Easy Wallet
+    url: https://dorahacks.io/buidl/5000
+    desc: Easy Wallet is an EOA wallet. Its core function is to allow users to customize mnemonic words.
+
+  - title: NFT Vault
+    url: https://github.com/Adamlixi/NFTVault/tree/test
+    desc: EggCoin is a decentralize NFT borrow/leanding protocol(NFT-fi). Aim to make every NFT can be a collateral.
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
+  - title: Adam's homepage
+    url:
 
   - title: twitter
-    url: https://twitter.com/abhinav
+    url: https://x.com/xinanli5
 
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/Adamlixi
 
-  - title: feed
-    url: feed.xml
+  - title: Linkedin
+    url: https://www.linkedin.com/in/adam-lee-aba02b1a2/
 
 misc_entries:
   - title: this is an example vertical list
