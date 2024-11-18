@@ -6,6 +6,11 @@ navbar_entries:
     url: blog
 
 project_entries:
+  - title: Anonymous
+    url: 
+    desc: Google plug-in on X. Build on Solana. Talk anonymously, keep permanently.
+    highlight: Building
+
   - title: AO Craft
     url: https://ao-craft.vercel.app/
     desc: AO Craft is a fully on-chain Minecraft game on AO.
