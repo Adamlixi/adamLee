@@ -6,7 +6,7 @@ navbar_entries:
     url: blog
 
 project_entries:
-  - title: Anonymous
+  - title: AnonEcho
     url: "https://anon-echo.vercel.app/"
     desc: Google plug-in on X. Build on AO. Talk anonymously, keep permanently.
     highlight: NEW
