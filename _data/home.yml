@@ -7,9 +7,9 @@ navbar_entries:
 
 project_entries:
   - title: Anonymous
-    url: 
-    desc: Google plug-in on X. Build on Solana. Talk anonymously, keep permanently.
-    highlight: Building
+    url: "https://anon-echo.vercel.app/"
+    desc: Google plug-in on X. Build on AO. Talk anonymously, keep permanently.
+    highlight: NEW
 
   - title: AO Craft
     url: https://ao-craft.vercel.app/
