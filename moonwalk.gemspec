@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+# encoding: UTF-8
 
 Gem::Specification.new do |spec|
   spec.name          = "moonwalk"
@@ -10,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/abhinavs/moonwalk"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
+  spec.files         = `git ls-files -z`.force_encoding("UTF-8").split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
 
   spec.add_runtime_dependency "jekyll", "~> 4.2.0"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.15.0"
