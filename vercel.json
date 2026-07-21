@@ -1,4 +1,4 @@
 {
-  "buildCommand": "bundle exec jekyll build",
+  "buildCommand": "bundle exec jekyll build --trace 2>&1",
   "installCommand": "bundle install"
 }
