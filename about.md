@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Adam Lee
+permalink: /about
 ---
 
 ## Work Experience
