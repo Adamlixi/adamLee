@@ -18,8 +18,8 @@ ul.horizontal-list {
 }
 
 .card {
-  padding: 1em;
-  border: 1px var(--text) solid;
+  padding: 1.2em;
+  border: 1px var(--border) solid;
   width: 11em;
   height: auto;
   text-align: center;
@@ -27,7 +27,13 @@ ul.horizontal-list {
   align-items: center;
   background-color: var(--bg-secondary);
   margin-bottom: 0.8em;
-  border-radius: 0.5em;
+  border-radius: 14px;
+  transition: transform 200ms, box-shadow 200ms;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(26, 26, 23, 0.08);
+  }
 
   .header {
     color: var(--links);
@@ -39,6 +45,7 @@ ul.horizontal-list {
 
   hr {
     margin: 0.5em 0;
+    border-color: var(--border);
   }
 
 }

@@ -2,10 +2,10 @@ title: Adam Lee
 author: Adam Lee
 url: https://adam-lee.netlify.app/about # root address of the site
 description: > # description of the site (multiple lines allowed)
-  A Developer in Web2 and Web3. Love designing individual games. <br>
-  Focus on building products that are useful and enjoyable. <br>
-  Researching DEFI and fully onchain games. <br>
-  For more information, check out my <a href="https://adam-lee.netlify.app/about">about page</a>.
+  Senior Software Engineer building high-concurrency trading systems at crypto.com. <br>
+  Previously at Tencent and Shopee, working on Web3 infrastructure and large-scale backend services. <br>
+  Also love designing individual games and researching fully onchain games on the side. <br>
+  For more information, check out my <a href="/about">about page</a>.
 
 permalink: /:slug
 
@@ -19,8 +19,8 @@ twitter:
 remote_theme: abhinavs/moonwalk
 
 theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
-  appearance_toggle: true # if appearance can be switched by user
+  appearance: "light" # can be "light", "dark" or "auto"
+  appearance_toggle: false # if appearance can be switched by user
   back_home_text: "home.." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description
